@@ -6,6 +6,12 @@ import { twMerge } from "tailwind-merge";
 export const TechStack = () => {
   const stack = [
     {
+      title: "React",
+      src: "/images/logos/react.png",
+
+      className: "h-10 w-14",
+    },
+    {
       title: "Next.js",
       src: "/images/logos/next.png",
 
@@ -36,6 +42,12 @@ export const TechStack = () => {
       className: "h-10 w-12",
     },
     {
+      title: "Laravel",
+      src: "/images/logos/laravel.png",
+
+      className: "h-10 w-12",
+    },
+    {
       title: "Tailwind",
       src: "/images/logos/tailwind.png",
 
@@ -52,8 +64,7 @@ export const TechStack = () => {
     <div>
       <Heading
         as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
-      >
+        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4">
         Tech Stack
       </Heading>
       <div className="flex flex-wrap">
