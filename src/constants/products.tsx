@@ -1,11 +1,12 @@
-import nomadProject from "public/images/nomad-Project.png";
-import nomadProject2 from "public/images/nomad-project-2.png";
-import EduVerse from "public/images/Edu-verse.png";
-import EduVerse2 from "public/images/Edu-verse2.png";
-import smartWaste from "public/images/smart-waste.png";
-import smartWaste2 from "public/images/smart-waste2.png";
-import lendsqr from "public/images/lendsqr.png";
-import lendsqr2 from "public/images/lendsqr2.png";
+// Use string paths instead of imports for better compatibility
+const nomadProject = "/images/nomad-Project.png";
+const nomadProject2 = "/images/nomad-project-2.png";
+const EduVerse = "/images/Edu-verse.png";
+const EduVerse2 = "/images/Edu-verse2.png";
+const smartWaste = "/images/smart-waste.png";
+const smartWaste2 = "/images/smart-waste2.png";
+const lendsqr = "/images/lendsqr.png";
+const lendsqr2 = "/images/lendsqr2.png";
 
 export const products = [
   {
