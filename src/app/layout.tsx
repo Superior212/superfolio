@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   title: "Samson Aderonmu - Developer",
   description:
     "Samson Aderonmu is a developer, and a speaker. He is a digital nomad and travels around the world while working remotely.",
+  icons: {
+    icon: "/sam.png",
+    apple: "/sam.png",
+  },
 };
 
 export default function RootLayout({
