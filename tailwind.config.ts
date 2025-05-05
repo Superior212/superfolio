@@ -4,6 +4,7 @@ const {
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config: Config = {
+  darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -35,6 +36,21 @@ function addVariablesForColors({ addBase, theme }: any) {
 
   addBase({
     ":root": newVars,
+    ".dark": {
+      "--neutral-50": theme("colors.neutral.950"),
+      "--neutral-100": theme("colors.neutral.900"),
+      "--neutral-200": theme("colors.neutral.800"),
+      "--neutral-300": theme("colors.neutral.700"),
+      "--neutral-400": theme("colors.neutral.600"),
+      "--neutral-500": theme("colors.neutral.400"),
+      "--neutral-600": theme("colors.neutral.300"),
+      "--neutral-700": theme("colors.neutral.200"),
+      "--neutral-800": theme("colors.neutral.100"),
+      "--neutral-900": theme("colors.neutral.50"),
+      "--neutral-950": theme("colors.neutral.50"),
+      "--white": theme("colors.neutral.900"),
+      "--black": theme("colors.neutral.50"),
+    },
   });
 }
 

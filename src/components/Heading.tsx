@@ -22,10 +22,9 @@ export const Heading = ({
     <Tag
       className={twMerge(
         CalSans.className,
-        "text-base md:text-xl lg:text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary",
+        "text-base md:text-xl lg:text-4xl font-semibold text-neutral-800 dark:text-white",
         className
-      )}
-    >
+      )}>
       {children}
     </Tag>
   );

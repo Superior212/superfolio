@@ -66,7 +66,7 @@ export const products = [
     thumbnail: smartWaste,
     images: [smartWaste, smartWaste2],
     stack: ["ReactJs", "Laravel", "Tailwindcss"],
-    slug: "moonbeam",
+    slug: "Smart-Waste",
     content: (
       <div>
         <p>
