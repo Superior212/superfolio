@@ -20,7 +20,7 @@ export const Products = () => {
 
   return (
     <div className="container mx-auto px-2 py-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
         {products.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
